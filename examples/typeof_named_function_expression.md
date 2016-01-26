@@ -8,7 +8,7 @@
 		return 23; 
 	};
     
-	console.log(typeof func);				// 1
+	console.log(typeof func);				// 1(why are theese ways to print out.. I am confused)
 	console.log(typeof func());				// 2
 	console.log(typeof namedFuncExp);		// 3
 	console.log(typeof namedFuncExp());	// 4
@@ -21,7 +21,7 @@
 function
 number 
 undefined 
-Uncaught ReferenceError: namedFuncExp is not defined(…)
+Uncaught ReferenceError: namedFuncExp is not defined(…)(explain results)
 ```
 ######Explanation
 
